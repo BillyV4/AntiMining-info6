@@ -19,7 +19,7 @@ Currently, cryptocurrency mining malware with file name info6.ps1 is being propa
 #### Image 3
 ![alt tag](https://github.com/BillyV4/AntiMining-info6/blob/master/Screenshot/Infected_Class.jpg)
 
-#### Image 3
+#### Image 4
 ![alt tag](https://github.com/BillyV4/AntiMining-info6/blob/master/Screenshot/Scan.jpg)
 
 In the page www.virustotal.com, 16 of 59 antivirus detect the files info6.ps1 and info3.ps1 on February 12, 2018 as a malware, however, once the code has been executed on your computer, only 1 of 59 antivirus I detect it, but without creating a solution on the affected computers.
