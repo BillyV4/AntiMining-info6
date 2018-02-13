@@ -2,7 +2,7 @@
 
 #### By Carlos Ramírez López
 
-### ABOUT
+## ABOUT
 Currently, cryptocurrency mining malware with file name info6.ps1 is being propagated for architecture (X64) and info3.ps1 for architecture (x86) in Windows. This malware is divided into four parts:
 
   - Performance modification in the computer equipment to "high performance" through the Windows registry.
@@ -43,3 +43,8 @@ __FilterToConsumerBinding
 CommandLineEventConsumer
 __EventFilter –filter
 ```
+## Elimination of malware
+
+To eliminate the malware it is necessary to eliminate the variables the content of the affected variables where the malicious script is stored.
+For this we only need to eliminate the powershell.exe from the task manager and execute the AntiMining-info6.bat script by double clicking on it, automatically removing the malware.
+
