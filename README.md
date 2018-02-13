@@ -48,3 +48,6 @@ __EventFilter –filter
 To eliminate the malware it is necessary to eliminate the variables the content of the affected variables where the malicious script is stored.
 For this we only need to eliminate the powershell.exe from the task manager and execute the AntiMining-info6.bat script by double clicking on it, automatically removing the malware.
 
+![alt tag](https://github.com/BillyV4/AntiMining-info6/blob/master/Screenshot/AntiMiner.jpg)
+
+
